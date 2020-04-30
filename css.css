@@ -23,6 +23,21 @@
 		}
 .verde{
 		
+	color:green;
+	display:table-row;
+}
+.rojo{
+		
 	color:red;
+	display:table-row;
+}
+.azul{
+		
+	color:blue;
+	display:table-row;
+}
+.negro{
+		
+	color:black;
 	display:table-row;
 }
