@@ -1,4 +1,4 @@
-let color = String(prompt("Introduce el color con el que quieres que se muestre el texto rojo verde o azul"));
+let color = String(prompt("Introduce el color con el que quieres que se muestre el texto rojo verde o azul")); //No hace falta poner String, lo que te devuelve ya es un String
 let cadena = String(prompt("Introduce tu nombre"));
 let numero = String(prompt("Introduce un numero de telefono"));
 let correo = String(prompt("Introduce un Email"));
@@ -13,17 +13,17 @@ function cambiaC(color){
 
 	if(color == "verde"){
 		var cambia = document.querySelector(".tdi");
-		cambia.className = ".verde";
+		cambia.className = ".verde"; //Cuando usas className no pongas el .
 	
 	} else {
 		if(color == "rojo"){
 			var cambiacolor = document.querySelector(".cambia");
-			var selectorAt = cambiacolor.getAttribute("color");
-			cambiacolor.className = 'red';
+			var selectorAt = cambiacolor.getAttribute("color"); //Esto te sobra
+			cambiacolor.className = 'red'; //¿Tu clase se llama red o rojo?
 		}else{
 			if(color == "azul"){
 				var cambia = document.querySelector(".tri");
-				cambia.setAttribute("color", "blue")
+				cambia.setAttribute("color", "blue")//Esto sería en todo caso setAtribute("class","nombreClaseColorAzul")
 			}else{
 				var cambia = document.querySelector(".tri");
 				cambia.className = "rojo";
