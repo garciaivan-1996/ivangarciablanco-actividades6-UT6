@@ -1,6 +1,7 @@
 *{box-sizing:border-box;margin:0;padding:0;}
 		.table{display:table;}
 		.tr{display:table-row;}
+		.tri{display:table-row;}
 		.td {
 			display:table-cell;
 			width:250px;
@@ -20,7 +21,8 @@
 			
 			background-color:white;
 		}
-#cambia{
-	
-	color:white;
+.verde{
+		
+	color:red;
+	display:table-row;
 }
