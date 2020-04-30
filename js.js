@@ -11,22 +11,22 @@ let freno3 = 1;
 function cambiaC(color){
 	
 
-
 	if(color == "verde"){
-	var cambia = document.querySelector("#cambia");
-	cambia.style.color = 'green';
+		var cambia = document.querySelector(".tdi");
+		cambia.className = ".verde";
 	
 	} else {
 		if(color == "rojo"){
-			var cambia = document.querySelector("#cambia");
-			cambia.style.color = 'red';
+			var cambiacolor = document.querySelector(".cambia");
+			var selectorAt = cambiacolor.getAttribute("color");
+			cambiacolor.className = 'red';
 		}else{
 			if(color == "azul"){
-				var cambia = document.querySelector("#cambia");
-				cambia.style.color = 'blue';
+				var cambia = document.querySelector(".tri");
+				cambia.setAttribute("color", "blue")
 			}else{
-				var cambia = document.querySelector("#cambia");
-				cambia.style.color = 'black';
+				var cambia = document.querySelector(".tri");
+				cambia.className = "rojo";
 			}
 		}
 	}
