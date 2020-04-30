@@ -11,22 +11,21 @@ let freno3 = 1;
 function cambiaC(color){
 	
 
-	if(color == "verde"){
-		var cambia = document.querySelector(".tdi");
-		cambia.className = ".verde"; //Cuando usas className no pongas el .
+		if(color == "verde"){
+		var cambia = document.querySelector(".tri");
+		cambia.className = "verde";
 	
 	} else {
 		if(color == "rojo"){
-			var cambiacolor = document.querySelector(".cambia");
-			var selectorAt = cambiacolor.getAttribute("color"); //Esto te sobra
-			cambiacolor.className = 'red'; //¿Tu clase se llama red o rojo?
+			var cambiacolor = document.querySelector(".tri");
+			cambiacolor.className = "rojo";
 		}else{
 			if(color == "azul"){
 				var cambia = document.querySelector(".tri");
-				cambia.setAttribute("color", "blue")//Esto sería en todo caso setAtribute("class","nombreClaseColorAzul")
+				cambiacolor.className = "azul";
 			}else{
 				var cambia = document.querySelector(".tri");
-				cambia.className = "rojo";
+				cambia.className = "negro";
 			}
 		}
 	}
