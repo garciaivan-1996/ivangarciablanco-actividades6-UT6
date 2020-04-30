@@ -10,25 +10,26 @@ let freno3 = 1;
 
 function cambiaC(color){
 	
-
-		if(color == "verde"){
-		var cambia = document.querySelector(".tri");
-		cambia.className = "verde";
+	if(color == "verde"){
+var cambia = document.querySelector(".tri");
+				cambia.className = "verde";
 	
 	} else {
 		if(color == "rojo"){
-			var cambiacolor = document.querySelector(".tri");
-			cambiacolor.className = "rojo";
+			var cambia = document.querySelector(".tri");
+			cambia.className = "rojo";
 		}else{
 			if(color == "azul"){
 				var cambia = document.querySelector(".tri");
-				cambiacolor.className = "azul";
+				cambia.className = "azul";
 			}else{
 				var cambia = document.querySelector(".tri");
 				cambia.className = "negro";
 			}
 		}
 	}
+
+}
 
 }
 
