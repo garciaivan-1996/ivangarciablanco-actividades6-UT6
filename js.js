@@ -31,7 +31,7 @@ var cambia = document.querySelector(".tri");
 
 }
 
-}
+
 
 
 function nombre(cadena){
